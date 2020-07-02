@@ -21,7 +21,7 @@ function Bird(){
 	this.update=function(){
 		this.velocity += this.gravity;
 		this.y += this.velocity;
-		n
+		
 		if(this.y > height){
 			this.y = height;
 			this.velocity = 0;
